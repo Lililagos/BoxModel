@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: aqua;
+}
+.centrar {
+    display: flex;
+    justify-content: center;
+}
+.todos {
+    height: 600px;
+    margin: 0px;
+    background-color: rgb(40, 46, 227);
+    background-image: url(../images/Looney-Tunes01.png);
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+.speedy {
+    height: 600px;
+    margin: 0px;
+    background-color: rgb(63, 228, 57);
+    background-image: url(../images/Speedy-Gonzalez.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    font-family: 'Bangers', cursive;
+    color: rgb(30, 102, 196);
+    font-size: 50px;
+}
+h2 {
+    font-family: 'Bangers', cursive;
+    color: rgb(218, 13, 37);
+    font-size: 20px;
+}
